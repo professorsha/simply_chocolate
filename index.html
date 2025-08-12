@@ -20,28 +20,48 @@
     <title>SIMPLY CHOCOLATE</title>
   </head>
   <body>
-    <header>
-      <nav class="menu">
-        <a class="logo" href="./index.html"><i>SIMPLY</i> CHOCOLATE</a>
-        <ul class="menu-list">
-          <li class="menu-list-item"><a href="">Home</a></li>
-          <li class="menu-list-item"><a href="">How it’s made?</a></li>
-          <li class="menu-list-item"><a href="">Chocolate is loved</a></li>
-        </ul>
-      </nav>
+    <header class="page-header">
+      <div class="container">
+        <nav class="page-navigation">
+          <a class="logo" href="./index.html"
+            ><i>SIMPLY</i>&nbsp;CHOCOLATE<svg
+              class="logo-icon"
+              width="21"
+              height="21"
+              aria-label="simply chocolate icon"
+            >
+              <use href="./images/icons.svg#icon-chocolate"></use>
+            </svg>
+          </a>
+          <ul class="menu-list">
+            <li class="menu-list-item">
+              <a class="menu-link" href="./index.html">Home</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="menu-link" href="#how-made">How it’s made?</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="menu-link" href="#reviews">Chocolate is loved</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="start-page">
-        <img
-          src="./images/chocolate-covered-cocoa-powder.jpg"
-          alt="chocolate-mint-cocoa"
-        />
-        <h1>
-          Treat yourself or a loved one to our finest ingredients for a moment
-          of pure delight!
-        </h1>
-        <button>Buy now</button>
-        <a href="#How_it_s_made">How it’s made</a>
+        <div class="container">
+          <img
+            src="./images/chocolate-covered-cocoa-powder.jpg"
+            alt="chocolate-mint-cocoa"
+          />
+          <h1>
+            Treat yourself or a loved one to our finest ingredients for a moment
+            of pure delight!
+          </h1>
+          <button>Buy now</button>
+          <a href="#How_it_s_made">How it’s made</a>
+          <a href="">scroll down</a>
+        </div>
       </section>
       <section class="benefits">
         <ul>
@@ -75,10 +95,207 @@
           </li>
         </ul>
       </section>
-      <section></section>
-      <section id="How_it_s_made"></section>
-      <section></section>
+      <section>
+        <h2 class="section-title">
+          IT ALL ADDS UP TO ONE EXCEPTIONAL TASTE SENSATION
+        </h2>
+        <p>
+          At Simply Chocolate, we believe that the secret to exceptional
+          chocolate is in the details. From the sourcing of the finest
+          ingredients to the careful crafting of each individual piece, every
+          step of our process adds up to one exceptional taste sensation.
+        </p>
+        <ul>
+          <li>
+            <img
+              srcset="./images/milk-chocolate@2x.png 2x"
+              src="./images/chocolate-covered-cocoa-powder-mobile.jpg"
+              alt="chocolate"
+            />
+            <p>milk chocolate</p>
+            <div class="overlay">
+              <h3>Milk chocolate</h3>
+              <button>chocolate</button>
+              <button>the benefits</button>
+              <p>
+                Milk chocolate is a solid chocolate confectionery containing
+                cocoa, sugar and milk. It is the most consumed type of
+                chocolate. Chocolate was originally sold and consumed as a
+                beverage in pre-Columbian times. Although four-fifths of all
+                milk chocolate is sold in the United States and Europe.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <img
+              srcset="./images/milk-chocolate@2x.png 2x"
+              src="./images/milk-chocolate.png"
+              alt="milk"
+            />
+            <p>Milk</p>
+            <div class="overlay">
+              <h3>Milk chocolate</h3>
+              <button>milk</button>
+              <button>the benefits</button>
+              <p>
+                Milk is a white liquid food produced by the mammary glands of
+                mammals. It is the primary source of nutrition for young mammals
+                (including breastfed human infants) before they are able to
+                digest solid food.Early-lactation milk, which is called
+                colostrum, contains antibodies that strengthen the immune
+                system.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img
+              srcset="./images/nuts@2x.png 2x"
+              src="./images/nuts.png"
+              alt="nuts"
+            />
+            <p>nuts</p>
+            <div class="overlay">
+              <h3>Nuts</h3>
+              <button>nuts</button>
+              <button>the benefits</button>
+              <p>
+                Almonds, pistachios, and walnuts are some types of nuts that
+                contain healthy nutrients. When eaten as part of a
+                nutrient-dense diet, these 9 nuts may offer benefits such as
+                reducing your risk of heart disease. They’re a good source of
+                fiber, healthy fats, and plant protein. Plus, they’re great on
+                their own.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img
+              srcset="./images/cocao@2x.png 2x"
+              src="./images/cocao.png"
+              alt="cocao"
+            />
+            <p>semi - sweet chocolate</p>
+            <div class="overlay">
+              <h3>semi - sweet chocolate</h3>
+              <button>sweet chocolate</button>
+              <button>the benefits</button>
+              <p>
+                Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One
+                of the best ways to gain an understanding of this type of
+                chocolate is to compare it to a different type of chocolate.
+                Semisweet is darker than milk chocolate. In a taste comparison,
+                it has a slightly bitter taste whereas milk chocolate is
+                sweeter.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="How_it_s_made">
+        <h2>hOW IT’S made?</h2>
+        <img
+          srcset="
+            ./images/chocolate-in-a-bowl-mobile.jpg    1x,
+            ./images/chocolate-in-a-bowl-mobile@2x.jpg 2x
+          "
+          src="./images/chocolate-in-a-bowl-mobile.jpg"
+          alt=""
+        />
+        <h3>
+          Try our chocolates today and discover the perfect balance of flavor
+        </h3>
+        <ul>
+          <li>
+            Heat the milk in a saucepan without bringing it to a boil. Add sugar
+            and cocoa powder.
+          </li>
+          <li>
+            At the same time, prepare a water bath. Melt the butter on it.
+          </li>
+          <li>
+            "Mix" the milk mixture and already liquid butter. Mix thoroughly
+            with a silicone spatula so that the mass becomes uniform and silky.
+          </li>
+          <li>Heat the mixture over low heat, letting it barely boil.</li>
+          <li>
+            Pour the chocolate into special containers (can be replaced with ice
+            molds). Allow to cool and harden.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>chocolate is loved</h2>
+        <ul>
+          <li>
+            <img
+              srcset="./images/Victoria-Dobrzhanska@2x.png 2x"
+              src="./images/Victoria-Dobrzhanska.png"
+              alt="Victoria Dobrzhanska"
+            />
+            <h3>Victoria Dobrzhanska</h3>
+            <p>
+              I love this chocolate bar. Perfect combination of light crispy
+              wafer, covered in a thin layer chocolate.
+            </p>
+          </li>
+          <li>
+            <img
+              srcset="./images/Nazar-Babenko@2x.png 2x"
+              src="./images/Nazar-Babenko.png"
+              alt="Nazar Babenko"
+            />
+            <h3>Nazar Babenko</h3>
+            <p>
+              This chocolate confection is a delight! A delight! The wafer is
+              light and crisp, the hazelnut cream is smooth, and the chocolate
+              is good.
+            </p>
+          </li>
+          <li>
+            <img
+              srcset="./images/Olena-Kampusch@2x.png 2x"
+              src="./images/Olena-Kampusch.png"
+              alt="Olena Kampusch"
+            />
+            <h3>Olena Kampusch</h3>
+            <p>
+              Chocolate is a family favourite treat. Love the delicious smooth
+              chocolate and the creaminess inside. The wafer is soft but
+              crunchy.
+            </p>
+          </li>
+        </ul>
+        <button>Leave a review</button>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <h2>Chocolate a delicious cure for a bad day</h2>
+      <div>
+        <address>
+          <p>Contact us</p>
+          <a href="tel:+380684439426">+380 (68) 443-94-26</a>
+          <a href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a>
+        </address>
+      </div>
+      <div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">How it’s made?</a></li>
+            <li><a href="#">Our products</a></li>
+            <li><a href="#">Top sellers</a></li>
+            <li><a href="#">Chocolate is loved</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <form>
+          <input type="text" />Enter your email
+          <button>Subscribe</button>
+        </form>
+      </div>
+    </footer>
+    <!-- mobile menu -->
   </body>
 </html>
