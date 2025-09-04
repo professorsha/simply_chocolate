@@ -21,16 +21,16 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container">
+      <div class="container page-header-container">
         <nav class="page-navigation">
           <a class="logo" href="./index.html"
-            ><i>SIMPLY</i>&nbsp;CHOCOLATE<svg
+            ><i>SIMPLY</i>CHOCOLATE<svg
               class="logo-icon"
-              width="21"
-              height="21"
+              width="24"
+              height="24"
               aria-label="simply chocolate icon"
             >
-              <use href="./images/icons.svg#icon-chocolate"></use>
+              <use href="./images/icons/sprite.svg#icon-chocolate"></use>
             </svg>
           </a>
           <ul class="menu-list">
@@ -45,25 +45,60 @@
             </li>
           </ul>
         </nav>
+        <ul class="social-list">
+          <li class="social-list-item">
+            <a href="" class="social-list-link">
+              <svg
+                class="social-list-icon"
+                width="24"
+                height="24"
+                aria-label="instagram"
+              >
+                <use href="./images/icons/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href="" class="social-list-link">
+              <svg
+                class="social-list-icon"
+                width="24"
+                height="24"
+                aria-label="twitter"
+              >
+                <use href="./images/icons/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
       <section class="hero">
         <div class="container">
-          <img
-            src="./images/chocolate-covered-cocoa-powder.jpg"
-            alt="chocolate-mint-cocoa"
-          />
           <h1 class="main-title">
             Treat yourself or a loved one to our finest ingredients for a moment
             of pure delight!
           </h1>
-          <button class="buy-now-btn">Buy now</button>
-          <a class="how-made-link" href="#How_it_s_made">How it’s made</a>
-          <a class="scroll-down" href="">scroll down</a>
+          <div class="hero-bottom-block">
+            <div class="hero-buttons">
+            <button class="buy-now-btn">Buy now</button>
+            <a class="how-made-link" href="#how-made">How it’s made</a>
+            </div>
+            <a class="scroll-down" href="#footer"
+              >scroll down<svg
+                class="arrow-down-icon"
+                width="38"
+                height="38"
+                aria-label="arrow down icon"
+              >
+                <use href="./images/icons/sprite.svg#icon-arrow-down"></use>
+              </svg></a
+            >
+          </div>
         </div>
       </section>
-      <section class="benefits section" >
+      <section class="benefits section">
         <div class="container">
           <h2 class="vissualy-hidden">Our benefits</h2>
           <ul class="benefits-list">
@@ -146,7 +181,7 @@
               />
               <h3 class="ingredients-list-title">Milk</h3>
               <div class="overlay">
-                <h3 class="ingredients-list-title">Milk chocolate</h3>
+                <h3 class="ingredients-list-title">Milk</h3>
                 <button>milk</button>
                 <button>the benefits</button>
                 <p>
@@ -250,7 +285,8 @@
           <h2 class="section-title">chocolate is loved</h2>
           <ul class="reviews-list">
             <li class="reviews-list-item">
-              <img class="reviews-list-img"
+              <img
+                class="reviews-list-img"
                 srcset="./images/Victoria-Dobrzhanska@2x.png 2x"
                 src="./images/Victoria-Dobrzhanska.png"
                 alt="Victoria Dobrzhanska"
@@ -262,7 +298,8 @@
               </p>
             </li>
             <li class="reviews-list-item">
-              <img class="reviews-list-img"
+              <img
+                class="reviews-list-img"
                 srcset="./images/Nazar-Babenko@2x.png 2x"
                 src="./images/Nazar-Babenko.png"
                 alt="Nazar Babenko"
@@ -275,7 +312,8 @@
               </p>
             </li>
             <li class="reviews-list-item">
-              <img class="reviews-list-img"
+              <img
+                class="reviews-list-img"
                 srcset="./images/Olena-Kampusch@2x.png 2x"
                 src="./images/Olena-Kampusch.png"
                 alt="Olena Kampusch"
@@ -292,7 +330,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer id="footer">
       <h2 class="section-title">Chocolate a delicious cure for a bad day</h2>
       <div>
         <address>
