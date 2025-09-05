@@ -204,8 +204,9 @@ body {
 }
 .arrow-down-icon {
   fill: #fd9222;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   border-radius: 50px;
+  padding: 8px;
 }
 .scroll-down:hover,
 .scroll-down:focus {
@@ -219,18 +220,29 @@ body {
 }
 .benefits-list {
   display: flex;
+  column-gap: 70px;
 }
 .benefits-list-item {
 }
 .benefits-title {
   font-size: 18px;
   font-weight: 600;
+  color: #fff;
+  margin-bottom: 18px;
 }
 .benefits-text {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+.benefits-list-icon {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 15px;
+  fill: #fd9222;
+  margin-bottom: 22px;
 }
 /* ======ingredients========= */
 .ingredients-title {
@@ -246,7 +258,7 @@ body {
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-align: center;
-  color: #111;
+  color: #111111;
   width: 486px;
   margin-right: auto;
   margin-left: auto;
@@ -291,6 +303,7 @@ body {
   letter-spacing: -0.02em;
   text-transform: uppercase;
 }
+
 .overlay {
   /* display: none; */
   position: absolute;
@@ -305,6 +318,32 @@ body {
   border-radius: 15px;
   padding: 20px;
   color: #111;
+}
+.overlay-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.overlay-container {
+  margin-bottom: 14px;
+  font-size: 10px;
+  display: flex;
+  column-gap: 6px;
+}
+.overlay-benefits {
+  background-color: #fd9222;
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 35px;
+}
+.overlay-span {
+  border: 1px solid #fd9222;
+  padding: 6px 16px;
+  border-radius: 35px;
+}
+.overlay-text{
+  font-size: 14px;
+  letter-spacing: -0.02em;
 }
 .ingredients-list-item:hover .overlay {
   transform: translateX(0);
